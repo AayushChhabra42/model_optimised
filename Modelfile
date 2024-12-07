@@ -1,0 +1,7 @@
+FROM llama3.2:1b
+
+PARAMETER temperature 0.7
+
+PARAMETER num_ctx 4096
+
+SYSTEM You are a helpful assistant. Answer the queries in an accurate manner.Keep it concise
